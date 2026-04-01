@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "abandon",
+    "options": ["維持する", "捨てる", "協力する", "発見する"],
+    "answerIndex": 1,
+    "explanation": "abandon (動): ～を見捨てる、捨てる、断念する"
+  },
+  {
+    "id": 2,
+    "question": "abundant",
+    "options": ["不足している", "豊富な", "壊れやすい", "曖昧な"],
+    "answerIndex": 1,
+    "explanation": "abundant (形): 豊富な。abound(富む)の形容詞形。"
+  },
+  {
+    "id": 3,
+    "question": "accommodate",
+    "options": ["収容する", "拒絶する", "無視する", "破壊する"],
+    "answerIndex": 0,
+    "explanation": "accommodate (動): ～を収容する、～に適応させる"
+  },
+  {
+    "id": 4,
+    "question": "影響",
+    "options": ["effort", "impact", "income", "origin"],
+    "answerIndex": 1,
+    "explanation": "impact (名): 影響、衝撃。have an impact on ～ (～に影響を与える)"
+  },
+  {
+    "id": 5,
+    "question": "ambiguous",
+    "options": ["明確な", "曖昧な", "野心的な", "偶然の"],
+    "answerIndex": 1,
+    "explanation": "ambiguous (形): 曖昧な、2つ以上の意味に取れる"
+  }
+]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Pop Quiz</title>
+    <hta:application 
+        id="poquizApp" 
+        applicationname="Pop Quiz" 
+        border="none"
+        caption="no" 
+        contextmenu="no"
+        innerborder="no"
+        scroll="no" 
+        showintaskbar="no"
+        singleinstance="yes" 
+        sysmenu="no" 
+        windowstate="maximize" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="stats-bar">
+        <span id="streak-stat">連勝記録: ロード中</span>
+        <span id="accuracy-stat">正答率: ロード中</span>
+    </div>
+    
+    <div id="result-area">
+        <div id="result-msg"></div>
+        <div id="explanation" class="explanation"></div>
+    </div>
+
+    <div class="container">
+        <div id="question-text" class="question-text">Loading...</div>
+        <div id="options-area" class="options-grid"></div>
+    </div>
+
+    <div id="close-area">
+        <button class="close-btn" onclick="window.close()">終了</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
